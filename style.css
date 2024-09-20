@@ -101,3 +101,36 @@ li a {
 }
 
 /* ----------- */
+
+
+.container  .sections:nth-child(2) {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container  .sections:nth-child(2) > h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.random-info__container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blue__square {
+    height: 200px;
+    width: 200px;
+    border: 6px solid #3882F6;
+    border-radius: 20px;
+}
+
+.blue-square__container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 20px;
+}
