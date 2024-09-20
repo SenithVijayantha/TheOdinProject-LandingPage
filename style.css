@@ -154,3 +154,47 @@ li a {
     font-weight: 700;
     text-align: right;
 }
+
+.call-to-action {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 20px;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-to-action__section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.call-to-action button {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: white;
+    border: 3px solid white;
+    padding: 5px 30px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.call-to-action h3 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.call-to-action > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__section {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
